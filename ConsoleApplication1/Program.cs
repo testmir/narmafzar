@@ -65,6 +65,12 @@ namespace ConsoleApplication1
                 tmp_pos = tmp_pos + 1;
             }
 
+ while (left <= left_end)
+            {
+                b[tmp_pos] = a[left];
+                left = left + 1;
+                tmp_pos = tmp_pos + 1;
+            }
             while (mid <= right)
             {
                 b[tmp_pos] = a[mid];
